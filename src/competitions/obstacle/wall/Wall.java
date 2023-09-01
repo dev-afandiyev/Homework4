@@ -1,9 +1,9 @@
-package competition.obstacle.wall;
+package competitions.obstacle.wall;
 
-import competition.obstacle.IObstacle;
-import competition.participant.IParticipant;
+import competitions.obstacle.IObstacle;
+import competitions.participant.IParticipant;
 
-class Wall implements IObstacle {
+public class Wall implements IObstacle {
 
     private int height;
 

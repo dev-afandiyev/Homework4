@@ -1,8 +1,8 @@
-package competition.participant.cat;
+package competitions.participant.cat;
 
-import competition.participant.IParticipant;
+import competitions.participant.IParticipant;
 
-class Cat implements IParticipant {
+public class Cat implements IParticipant {
 
     private String name;
     private int maxRunDistance;
@@ -19,7 +19,7 @@ class Cat implements IParticipant {
     @Override
     public void run(int distance) {
         if (distance <= maxRunDistance) {
-            System.out.println(name + " ran " + distance + " метров.");
+            System.out.println(name + " ran " + distance + " meters.");
         } else {
             System.out.println(name + " couldn't run " + distance + " meters.");
             onDistance = false;

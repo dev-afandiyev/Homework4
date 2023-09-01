@@ -1,9 +1,9 @@
-package competition.obstacle.runningtrack;
+package competitions.obstacle.runningtrack;
 
-import competition.obstacle.IObstacle;
-import competition.participant.IParticipant;
+import competitions.obstacle.IObstacle;
+import competitions.participant.IParticipant;
 
-class RunningTrack implements IObstacle {
+public class RunningTrack implements IObstacle {
 
     private int length;
 

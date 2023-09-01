@@ -1,4 +1,4 @@
-package competition.participant;
+package competitions.participant;
 
 public interface IParticipant {
 

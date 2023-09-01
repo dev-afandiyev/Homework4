@@ -1,8 +1,8 @@
-package triangle;
+package shapes.triangle;
 
-import shape.IShape;
+import shapes.IShape;
 
-class Triangle implements IShape {
+public class Triangle implements IShape {
     private double base;
     private double height;
 
@@ -12,7 +12,7 @@ class Triangle implements IShape {
     }
 
     /**
-     * The formula for the area of a triangle is:
+     * The formula for the area of a shapes.triangle is:
      * Area = 0.5 * base * height
      * */
     @Override

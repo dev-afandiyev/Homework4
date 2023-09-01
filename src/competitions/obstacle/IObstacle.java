@@ -1,6 +1,6 @@
-package competition.obstacle;
+package competitions.obstacle;
 
-import competition.participant.IParticipant;
+import competitions.participant.IParticipant;
 
 public interface IObstacle {
 

@@ -1,8 +1,8 @@
-package competition.participant.robot;
+package competitions.participant.robot;
 
-import competition.participant.IParticipant;
+import competitions.participant.IParticipant;
 
-class Robot implements IParticipant {
+public class Robot implements IParticipant {
 
     private String name;
     private int maxRunDistance;
@@ -19,7 +19,7 @@ class Robot implements IParticipant {
     @Override
     public void run(int distance) {
         if (distance <= maxRunDistance) {
-            System.out.println(name + " ran " + distance + " метров.");
+            System.out.println(name + " ran " + distance + " meters.");
         } else {
             System.out.println(name + " couldn't run " + distance + " meters.");
             onDistance = false;

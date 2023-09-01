@@ -1,6 +1,6 @@
-package circle;
+package shapes.circle;
 
-import shape.IShape;
+import shapes.IShape;
 
 public class Circle implements IShape {
 
